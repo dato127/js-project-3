@@ -1,0 +1,44 @@
+body {
+    background: #0dc39839 !important;
+}
+
+.container {
+    margin-top: 80px;
+    width: 95%;
+    height: 70vh;
+    display: flex;
+    text-align: center;
+}
+
+.quotes {
+    border: 1px solid black;
+    width: 900px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color: gray;
+    background-color: bisque;
+    border: 10px solid black;
+}
+
+.quotes p, .quotes h3 {
+    font-size: 1.5rem;
+}
+
+button {
+    width: 200px;
+    background-color: rgba(0, 255, 149, 0.797) !important;
+    border: 5px solid black !important;
+    color: rgb(0, 0, 0) !important;
+    font-size: 20px !important;
+}
+
+@media(max-width: 480px) {
+    .quotes p, .quotes h3 {
+        font-size: 1rem;
+    }
+}
